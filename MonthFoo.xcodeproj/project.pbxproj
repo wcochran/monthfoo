@@ -21,6 +21,7 @@
 		55C9A2A218EDCFBE0028E3FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C9A28418EDCFBE0028E3FF /* UIKit.framework */; };
 		55C9A2AA18EDCFBE0028E3FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A2A818EDCFBE0028E3FF /* InfoPlist.strings */; };
 		55C9A2AC18EDCFBE0028E3FF /* MonthFooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C9A2AB18EDCFBE0028E3FF /* MonthFooTests.m */; };
+		55C9A2B718EDCFEF0028E3FF /* MonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C9A2B618EDCFEF0028E3FF /* MonthView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		55C9A2A718EDCFBE0028E3FF /* MonthFooTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MonthFooTests-Info.plist"; sourceTree = "<group>"; };
 		55C9A2A918EDCFBE0028E3FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55C9A2AB18EDCFBE0028E3FF /* MonthFooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonthFooTests.m; sourceTree = "<group>"; };
+		55C9A2B518EDCFEF0028E3FF /* MonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthView.h; sourceTree = "<group>"; };
+		55C9A2B618EDCFEF0028E3FF /* MonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				55C9A29218EDCFBE0028E3FF /* Main.storyboard */,
 				55C9A29518EDCFBE0028E3FF /* MonthFooViewController.h */,
 				55C9A29618EDCFBE0028E3FF /* MonthFooViewController.m */,
+				55C9A2B518EDCFEF0028E3FF /* MonthView.h */,
+				55C9A2B618EDCFEF0028E3FF /* MonthView.m */,
 				55C9A29818EDCFBE0028E3FF /* Images.xcassets */,
 				55C9A28718EDCFBE0028E3FF /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				55C9A29118EDCFBE0028E3FF /* MonthFooAppDelegate.m in Sources */,
 				55C9A29718EDCFBE0028E3FF /* MonthFooViewController.m in Sources */,
 				55C9A28D18EDCFBE0028E3FF /* main.m in Sources */,
+				55C9A2B718EDCFEF0028E3FF /* MonthView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

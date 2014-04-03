@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MonthView.h"
 
-@interface MonthFooViewController : UIViewController
+@interface MonthFooViewController : UIViewController <MonthViewDelegate>
+
+@property (weak, nonatomic) IBOutlet MonthView *monthView;
 
 @end
